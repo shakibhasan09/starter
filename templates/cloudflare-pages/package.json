@@ -7,13 +7,13 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy"
   },
   "dependencies": {
-    "hono": "^4.6.20"
+    "hono": "^4.7.2"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241218.0",
+    "@cloudflare/workers-types": "^4.20250214.0",
     "@hono/vite-build": "^1.2.0",
-    "@hono/vite-dev-server": "^0.18.1",
-    "vite": "^5.4.12",
-    "wrangler": "^3.96.0"
+    "@hono/vite-dev-server": "^0.18.2",
+    "vite": "^6.1.1",
+    "wrangler": "^3.109.2"
   }
 }
